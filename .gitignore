@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.o
+*.so
+
+# IDE / Environment files (VS Code and virtual environments)
+.vscode/
+venv/
+env/
+.env
+
+# Jupyter/Colab Files
+.ipynb_checkpoints/
+analyze_results.ipynb # Ignore the checkpoint files, but not the notebook itself!
+
+# DATA and MODEL ARTIFACTS (Crucial for GANs)
+# These should be saved to Google Drive, not GitHub
+data/
+checkpoints/
+logs/
+results/
+*.pth
+*.pt
+*.safetensors
